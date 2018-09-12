@@ -1,0 +1,38 @@
+
+Create a header and use the hangman image provided
+	-html header w/css or use bootstrap	
+
+
+Create an event using .onKeyUp (key-press) to initialize the game 
+	-  "Press Any Key To Get Started" is displayed
+		* OPTIONAL - change color of the text when any key is pressed and return it to normal when the first guess is taken
+	-  After a key is pressed, turn off this text
+		
+
+						''''''JAVASCRIPT''''''
+-  create an array that contains the available words (do 10)
+	-  Show one of the array words with each letter hidden with an underscore shown (use a math.random function to pick between available words)
+		
+		*  if an incorrect letter is pressed leave the underscore for that space
+			- show that letter under the "Letters Already Guessed" (in a row) 
+			- add one to "Number of Guesses Remaining"
+			- maximum guesses is 13.  If the number of incorrect guesses = 13, then the game is over and "Game Over" is displayed - GAME RESETS
+		
+
+		*  When the correct letter for that space is chosen, display that letter and remove the underscore
+			- show that letter under the "Letters Guessed" (in a row) 
+			- no affect on "Number of Guesses Remaining"
+			- maximum guesses is 13.  If the number of incorrect guesses = 13, then the game is over and "Game Over" is displayed - GAME RESETS
+			- When the total word is displayed, display You Win! - GAME RESETS
+
+- keep track of the number of wins a user has (keep until the game is reset) 
+
+
+*  Use a Math.Random function to pick the random word 
+
+
+	
+		
+
+
+

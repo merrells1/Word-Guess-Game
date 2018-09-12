@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="C:\Users\archi\Desktop\codingbootcamp\smerrell\Word-Guess-Game\assets\css\style.css">
+    <title>Word Guess Game</title>
+</head>
+
+<body>
+    <header>
+        <div class="headerContainer">
+            <img src=C:\Users\archi\Desktop\codingbootcamp\smerrell\Word-Guess-Game\assets\images\that-80s-Band-1.jpg class="gameTitlePic" >
+            <h1 class="gameHeaderText">WORD GUESS GAME</h1>   
+        </div>       
+    </header>
+        <div class="borderDiv">
+            <div class="imgContainer">
+                <img src=C:\Users\archi\Desktop\codingbootcamp\smerrell\Word-Guess-Game\assets\images\guessed-clipart-5.jpg class="detectiveFemalePic" >
+                <img src=C:\Users\archi\Desktop\codingbootcamp\smerrell\Word-Guess-Game\assets\images\detective-150.png. class="detectiveMalePic" >
+            </div>
+            
+            <div class="centerColGameContentCont">
+                <div>
+                    <p id="keyPressStartGame">Press Any Key To Start</p> <!--Affected by a keyPress event listener-->
+                        <input type="text" onkeydown="gameLoop()">
+                    <br>
+                </div>
+                <br>
+
+                <div>
+                    <p id="winsText">#Wins</p>
+                    <br>
+                    <p id="winsCount"></p> <!--affected by getElementById in javascript-->
+                </div>
+                <br>
+
+                <div>
+                    <p id="currentWordText">Current Word</p>
+                        
+                    <br>
+                    <p id="wordList"></p> <!--affected by getElementById in javascript-->
+                </div>
+               <br>
+
+                <div>
+                    <p id="numGuessesRemainingText"># Guesses Remaining</p>
+                    <br>
+                    <p id="guessRemainCount"></p>
+                </div>
+                <br>
+
+                <div>
+                    <p id="lettersGuessed">Letters Guessed</p>
+                    <br>
+                    <p id="lettersGuessedList"></p>
+                </div>
+            </div>
+        </div>
+    
+
+        <script type="text/javascript" src="C:\Users\archi\Desktop\codingbootcamp\smerrell\Word-Guess-Game\assets\javascript\game.js"></script>
+   </body>
+</html>
+
